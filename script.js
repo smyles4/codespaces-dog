@@ -8,7 +8,7 @@ let result = document.querySelector(".result");
 const calculateDoggieAge= (doggieAge) => {
     const humanAge= doggieAge *7;
     console.log(humanAge)
-    result.innerHTML='your doggie is ${humanAge} years old in human years!'
+    result.innerHTML=`your doggie is ${humanAge} years old in human years!`
 }
 
 
