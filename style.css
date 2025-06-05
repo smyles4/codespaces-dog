@@ -1,13 +1,80 @@
-body {    
+*{ font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: italic;
+ font-size: 30px;
+color: rgb(0, 0, 0);
+padding-top: 20px;
+
+
+
+}
+
+  
+
+
+.boy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);}
+
+
+
+
+
+
+
+  /* body {    
     font-family: Helvetica, Arial, sans-serif;
-    background-color:black;
-    color: #0084ff;
+    background-color:rgb(255, 236, 152);
+    color: #000000;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+} */
+
+
+@keyframes color {
+  0%   { background: #a8eeee; }
+  20%  { background: #a5ffa7; }
+  40%  { background: #d0e451; }
+  60%  { background: #ffdf5e; }
+  80%  { background: #ff83cb; }
+  100% { background: #a1a9ee; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
 }
 
 
 
-h1 { color:rgb(0, 162, 255)}
+h1 { color:rgb(255, 255, 255);
+  /* font-size: 60px; */
+    display: flex;
+     font-size: 70px;
+  justify-content: center
+;
 
+}
+
+.bark {width: 400px;
+padding-top: 10px;
+  /* padding-right: 30px; */
+  padding-bottom: 70px;
+  /* padding-left: 80px; */
+}
+
+ /* .input{ width: 300px;} */
+
+
+/* .clear{  display: flex;
+  justify-content: center;}
+
+.equals{  display: flex;
+  justify-content: center;} */ */
